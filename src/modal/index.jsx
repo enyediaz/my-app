@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import {Modal} from './modal.jsx';
-import {Button} from './button.jsx';
-
-
+import './modal.css';
+import { Modal } from './modal.jsx';
+import { Button } from './button.jsx';
+import { Alert } from 'react-bootstrap';
 
 class App extends Component {  
   constructor(props){
@@ -23,7 +22,13 @@ class App extends Component {
     return (
       <div className="App">
         <Button handleClick={this.handleClick} />
-        <Modal handleClick={this.handleClick} isOn={this.state.isOn} />
+        <Modal handleClick={this.handleClick} isOn={this.state.isOn} />        
+      <div>
+      <Alert bsStyle="warning">
+        <strong>Holy guacamole!</strong> Best check yo self, you're not looking too
+        good.
+      </Alert>
+      </div>
       </div>
     );
   }
