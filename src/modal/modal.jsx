@@ -12,7 +12,6 @@ export function Modal (props) {
         </div>        
       </div>
     : 
-      null
-    
+      null    
   )
 }
