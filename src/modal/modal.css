@@ -1,52 +1,3 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 96vh;
-  background-color: #e8e8e8;
-  margin: 2vh;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.16), 0 3px 5px rgba(0,0,0,0.23);  
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.button{
-  background: #ff7f50;
-  padding: 2em 8em;
-  color: #fff;
-  border: 0;
-  border-radius: 3px;
-  transition: background 1s;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.16), 0 3px 5px rgba(0,0,0,0.23);
-}
-.button:hover{
-  background: #333;
-}
 .modal{
   display: block;
   position: fixed;
@@ -57,27 +8,4 @@
   width: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.2);
-}
-.modal-hidden {
-  display: none;
-}
-.modal-content{
-  background-color: #fff;
-  margin: 20% auto;
-  padding: 20px;
-  width: 70%;
-  height: 20%;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4), 0 4px 15px 0 rgba(0,0,0,0.3);
-  animation-name: modalopen;
-  animation-duration: 3s;
-}
-.closeButton{
-  float: right;
-  font-size: 25px;
-  color: #ccc;
-}
-.closeButton:hover, .closeButton:focus{
-  cursor: pointer;
-  color: #000;
-  text-decoration: none;
 }
